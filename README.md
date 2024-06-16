@@ -30,6 +30,7 @@ This is a simple Tic-Tac-Toe game built with React.
 
 ## Folder Structure
 
+\`\`\`
 src/
 ├── components/
 │   ├── Game.js
@@ -41,3 +42,4 @@ src/
 │   │   ├── Square.js
 │   │   ├── Square.css
 └── index.js
+\`\`\`
