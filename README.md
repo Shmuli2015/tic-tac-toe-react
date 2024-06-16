@@ -27,19 +27,3 @@ This is a simple Tic-Tac-Toe game built with React.
 
 - React
 - CSS
-
-## Folder Structure
-
-\`\`\`
-src/
-├── components/
-│   ├── Game.js
-│   ├── Game.css
-│   ├── board/
-│   │   ├── Board.js
-│   │   ├── Board.css
-│   ├── square/
-│   │   ├── Square.js
-│   │   ├── Square.css
-└── index.js
-\`\`\`
