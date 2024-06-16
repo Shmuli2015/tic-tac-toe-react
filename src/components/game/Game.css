@@ -1,0 +1,54 @@
+.game {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.winner {
+  font-size: 24px;
+  color: green;
+}
+
+.draw-message {
+  font-size: 24px;
+  color: red;
+}
+
+.start-button,
+.play-again-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  animation: pop-up 0.5s ease-out;
+  z-index: 999;
+}
+
+@keyframes pop-up {
+  from {
+    transform: translate(-50%, -60%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}

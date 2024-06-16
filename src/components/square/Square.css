@@ -1,0 +1,22 @@
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  background: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.square.winning {
+  animation: winningAnimation 1s infinite alternate;
+}
+
+@keyframes winningAnimation {
+  from {
+    background: #4caf50;
+  }
+  to {
+    background: #8bc34a;
+  }
+}
